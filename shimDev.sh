@@ -1,8 +1,12 @@
 sudo growpart /dev/sda4
 sudo resize2fs sda4
 sudo apt update
-sudo apt install snapd default-jdk python3 python3-pip libspa-0.2-bluetooth
-sudo snap install code discord spotify chromium
+sudo apt install flatpak plasma-discover default-jdk python3 python3-pip libspa-0.2-bluetooth
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo apt update
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.visualstudio.code
 #!/bin/bash
 
 # Define variables
