@@ -1,5 +1,5 @@
 # Resize partitions and such
-sudo growpart /dev/sda4
+sudo growpart /dev/sda 4
 sudo resize2fs sda4
 sudo apt update
 sudo apt install default-jdk python3 python3-pip libspa-0.2-bluetooth
