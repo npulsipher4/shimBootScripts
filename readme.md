@@ -1,6 +1,3 @@
-Certainly! Here's the README.md file reformatted using GitHub's Markdown syntax:
-
-```markdown
 # Partition Resizing
 
 To resize partitions and the associated filesystem:
