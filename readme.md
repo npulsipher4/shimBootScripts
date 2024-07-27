@@ -69,5 +69,3 @@ chmod +x "$DESKTOP_FILE"
 
 echo "Installation complete. You can now find '$APP_NAME' in your application launcher."
 ```
-
-This README.md file uses GitHub's Markdown formatting to clearly separate and explain each section of commands and instructions for easy readability and understanding.
